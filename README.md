@@ -86,13 +86,13 @@ Visit http://127.0.0.1:5000 in your browser.
 ---
 
 ### 📤 Deployment on Render
-Push the project to GitHub.
+Push the project to GitHub.  
 
-Go to https://render.com and create a new web service.
+Go to https://render.com and create a new web service.  
 
-Connect your GitHub repo.
+Connect your GitHub repo.  
 
-Render will use render.yaml and Procfile.py to build and run the app.
+Render will use render.yaml and Procfile.py to build and run the app.  
 
 ---
 
@@ -103,38 +103,38 @@ Match Strength: Weak
 
 Matched Keywords:
 
-analyst, business, businessobjects, dashboards, data,
-excel, experience, intelligence, power, python,
-reporting, sap, skills, sql
+analyst, business, businessobjects, dashboards, data,  
+excel, experience, intelligence, power, python,  
+reporting, sap, skills, sql  
 
 ---
 
 ### 🧠 Tech Stack
-Flask – Web framework
-PyMuPDF – PDF text extraction
-scikit-learn – Text similarity and vectorization
-NLTK – Stopword removal and token processing
+Flask – Web framework  
+PyMuPDF – PDF text extraction  
+scikit-learn – Text similarity and vectorization  
+NLTK – Stopword removal and token processing  
 
 ---
 
 ### ✅ Use Cases
-Job seekers matching resumes to job descriptions
-Recruiters screening applicant resumes
-Freelancers offering resume optimization tools
+Job seekers matching resumes to job descriptions  
+Recruiters screening applicant resumes  
+Freelancers offering resume optimization tools  
 
 ---
 
 ### 🔮 Future Improvements
-TF-IDF or transformer-based semantic similarity
-Highlight missing critical keywords
-Resume recommendations based on JD
-Support for DOCX files
+TF-IDF or transformer-based semantic similarity  
+Highlight missing critical keywords  
+Resume recommendations based on JD  
+Support for DOCX files  
 
 ---
 
 ### 👩‍💻 Author
-Sneha Balan
-Business Intelligence Analyst
+Sneha Balan  
+Business Intelligence Analyst  
 LinkedIn | GitHub
 
 ---
