@@ -64,25 +64,25 @@ resume-jd-matcher-ai/
 
 ## 🖥️ How to Run Locally
 
-### 🔧 Step 1: Clone the Repo
+### Step 1: Clone the Repo
 ```
 bash
 git clone https://github.com/your-username/resume-jd-matcher-ai.git
 cd resume-jd-matcher-ai
-
+```
 ### Step 2: Create Virtual Environment
-
+```
 python -m venv venv
 source venv/bin/activate      # On Windows: venv\Scripts\activate
+```
+###  Step 3: Install Dependencies
+```pip install -r requirements.txt```
 
-###  Install Dependencies
-pip install -r requirements.txt
-
-### Run the Application
-python app.py
+### Step 4: Run the Application
+```python app.py```
 
 Visit http://127.0.0.1:5000 in your browser.
-```
+
 ---
 
 ### 📤 Deployment on Render
