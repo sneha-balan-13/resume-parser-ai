@@ -65,7 +65,7 @@ resume-jd-matcher-ai/
 ## 🖥️ How to Run Locally
 
 ### 🔧 Step 1: Clone the Repo
-
+```
 bash
 git clone https://github.com/your-username/resume-jd-matcher-ai.git
 cd resume-jd-matcher-ai
@@ -82,7 +82,7 @@ pip install -r requirements.txt
 python app.py
 
 Visit http://127.0.0.1:5000 in your browser.
-
+```
 ---
 
 ### 📤 Deployment on Render
