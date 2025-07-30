@@ -2,9 +2,13 @@ services:
   - type: web
     name: resume-parser-ai
     runtime: python
-    buildCommand: |
-      pip install -r requirements.txt
-      python -m spacy download en_core_web_sm  
-    startCommand: gunicorn app:app
-    plan: free
+    region: oregon
     branch: main
+    buildCommand: ""
+    startCommand: gunicorn app:app
+    build:
+      installCommand: pip install -r requirements.txt
+      postInstallCommand: python -m spacy download en_core_web_sm
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10
