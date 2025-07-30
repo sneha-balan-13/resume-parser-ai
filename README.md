@@ -35,6 +35,7 @@ Check out the live app here: [Resume Parser AI on Render](https://resume-parser-
 ---
 
 ## 📂 Project Structure
+```
 resume-jd-matcher-ai/
 │
 ├── app.py # Flask app entry point
@@ -58,7 +59,7 @@ resume-jd-matcher-ai/
 │ ├── index.html
 │ └── results.html
 
-
+```
 ---
 
 ## 🖥️ How to Run Locally
