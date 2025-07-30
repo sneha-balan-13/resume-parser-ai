@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Matching Result</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 30px; background-color: #f9f9f9; }
+    .card { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px #ccc; max-width: 600px; margin: auto; }
+    .score { font-size: 24px; font-weight: bold; color: #333; }
+    .badge {
+      padding: 5px 10px;
+      border-radius: 5px;
+      color: white;
+      background-color: #007bff;
+    }
+    .keywords { margin-top: 20px; }
+    .keyword {
+      display: inline-block;
+      background-color: #eee;
+      padding: 6px 10px;
+      margin: 5px;
+      border-radius: 5px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h2>Resume to JD Match Results</h2>
+    <p class="score">Similarity Score: {{ similarity_score }}%</p>
+
+    <p>
+    Match Strength:
+    {% if similarity_score >= 70 %}
+    <span class="badge" style="background-color: green;">Strong</span>
+    {% elif similarity_score >= 40 %}
+    <span class="badge" style="background-color: orange;">Moderate</span>
+    {% else %}
+    <span class="badge" style="background-color: red;">Weak</span>
+    {% endif %}
+    </p>
+    
+    <div class="keywords">
+      <h3>Matched Keywords:</h3>
+      {% for kw in matched_keywords %}
+        <span class="keyword">{{ kw }}</span>
+      {% endfor %}
+    </div>
+  </div>
+</body>
+</html>
