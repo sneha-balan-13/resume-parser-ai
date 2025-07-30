@@ -2,7 +2,6 @@ Flask
 python-docx
 docx2txt
 PyMuPDF
-spacy
 openpyxl
 pandas
 sentence-transformers

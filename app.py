@@ -1,5 +1,4 @@
 from flask import Flask, request, jsonify, render_template
-from parser.parse_entities import extract_name  # If you're using it elsewhere
 from parser.jd_matcher import extract_text_from_jd, match_resume_to_jd
 import fitz  # PyMuPDF
 
