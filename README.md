@@ -15,11 +15,13 @@ A simple AI-powered Flask web application that helps job seekers analyze how wel
 
 ---
 
-## 🚀 Demo Screenshot
+## 🚀 Demo Screenshot & Link
 
-![App Screenshot](screenshots/demo.png)  
+![App Screenshot](upload.png) 
+![App Screenshot](result.png)
 > _Upload resume + JD → Get similarity score and keywords!_
 
+Check out the live app here: [Resume Parser AI on Render](https://resume-parser-ai-2spd.onrender.com)
 ---
 
 ## 🛠️ Tech Stack
@@ -62,11 +64,12 @@ resume-jd-matcher-ai/
 ## 🖥️ How to Run Locally
 
 ### 🔧 Step 1: Clone the Repo
-```bash
+
+bash
 git clone https://github.com/your-username/resume-jd-matcher-ai.git
 cd resume-jd-matcher-ai
 
-### Create Virtual Environment
+### Step 2: Create Virtual Environment
 
 python -m venv venv
 source venv/bin/activate      # On Windows: venv\Scripts\activate
@@ -79,6 +82,8 @@ python app.py
 
 Visit http://127.0.0.1:5000 in your browser.
 
+---
+
 ### 📤 Deployment on Render
 Push the project to GitHub.
 
@@ -87,6 +92,8 @@ Go to https://render.com and create a new web service.
 Connect your GitHub repo.
 
 Render will use render.yaml and Procfile.py to build and run the app.
+
+---
 
 ### 📈 Example Output
 Similarity Score: 35.5%
@@ -99,16 +106,22 @@ analyst, business, businessobjects, dashboards, data,
 excel, experience, intelligence, power, python,
 reporting, sap, skills, sql
 
+---
+
 ### 🧠 Tech Stack
 Flask – Web framework
 PyMuPDF – PDF text extraction
 scikit-learn – Text similarity and vectorization
 NLTK – Stopword removal and token processing
 
+---
+
 ### ✅ Use Cases
 Job seekers matching resumes to job descriptions
 Recruiters screening applicant resumes
 Freelancers offering resume optimization tools
+
+---
 
 ### 🔮 Future Improvements
 TF-IDF or transformer-based semantic similarity
@@ -116,10 +129,16 @@ Highlight missing critical keywords
 Resume recommendations based on JD
 Support for DOCX files
 
+---
+
 ### 👩‍💻 Author
 Sneha Balan
 Business Intelligence Analyst
 LinkedIn | GitHub
 
+---
+
 ### 📜 License
 This project is licensed under the MIT License. Feel free to use, fork, and modify it.
+
+---
